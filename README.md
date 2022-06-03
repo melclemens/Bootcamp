@@ -1,4 +1,5 @@
-# Bootcamp
+# Ek Stack Project
+
 Bootcamp Activities
 <img align="center" width="5600" height="530" src="https://github.com/Diablo5G/ELK-Stack-Project/blob/main/Resources/Images/splashscreen.jpg">
 
