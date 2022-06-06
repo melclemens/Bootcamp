@@ -1,4 +1,4 @@
-## Week 13 Automated ELK Stack Deployment
+## Week 13 - Automated ELK Stack Deployment
 
 ![Elk graphic](https://github.com/melclemens/Bootcamp/blob/main/Elk.png)
      
