@@ -49,13 +49,13 @@ Load balancing ensures that the application will be highly available, in additio
 > What is the advantage of a jump box?
 - A Jump Box, sometimes known as a "Jump Server," is a network gateway that allows users to access and manage devices in various security zones. A Jump Box serves as a "bridge" between two trusted network zones, allowing users to access them in a regulated manner. The public IP address linked with the VM can be blocked. It improves security by preventing all Azure VMs from being exposed to the public.
 
-Integrating an Elastic Stack server allows us to easily monitor the vulnerable VMs for changes to their file systems and system metrics such as privilege escalation failures, SSH logins activity, CPU and memory usage, etc.
+Integrating an Elastic Stack server allows us to easily monitor the vulnerable VMs for changes to their file systems and system metrics.
 
 > What does Filebeat watch for?
-- Filebeat helps keep things simple by offering a lightweight way (low memory footprint) to forward and centralize logs, files and watches for changes.
+- Filebeat makes things easier by providing a lightweight (low memory footprint) means to transfer and consolidate logs, files, and change watches.
 
 > What does Metricbeat record?
-- Metricbeat helps monitor servers by collecting metrics from the system and services running on the server so it records machine metrics and stats, such as uptime.
+- Metricbeat is a server monitoring tool that collects data from the system and services operating on the server in order to record machine metrics and stats like uptime.
 
 The configuration details of each machine may be found below.
  
@@ -67,14 +67,14 @@ The configuration details of each machine may be found below.
 | ELKServer    |Kibana       | 20.227.166.71 ; 10.1.0.4     | Linux            |
 | RedTeam1lb|Load Balancer| 20.92.209.66| DVWA            |
  
-In addition to the above, Azure has provisioned a load balancer in front of all machines except for the jump box. The load balancer's targets are organized into availability zones: Web-1 + Web-2
-
 
 ### Access Policies
  
 The machines on the internal network are not exposed to the public Internet.
  
-Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 47.185.204.83 Machines within the network can only be accessed by SSH from Jump Box.
+Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 47.185.204.83 
+
+Machines within the network can only be accessed by SSH from Jump Box.
  
 A summary of the access policies in place can be found in the table below.
  
@@ -92,7 +92,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### ELK Configuration
  
-Ansible was used to automate the configuration of the ELK server. No configuration was performed manually, which is advantageous because Ansible can be used to easily configure new machines, update programs, and configurations on hundreds of servers at once, and the best part is that the process is the same whether we're managing one machine or dozens and even hundreds.
+Ansible was used to automate the configuration of the ELK server. No configuration was performed manually, which is advantageous because ansible can be used to quickly set up new computers, update programmes, and setup hundreds of servers at once, and the greatest part is that the method is the same whether we're managing one machine or dozens or hundreds.
 
 > What is the main advantage of automating configuration with Ansible?
 - Ansible is focusing on bringing a server to a certain state of operation.
