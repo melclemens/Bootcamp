@@ -80,8 +80,8 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------|
 | Jump-Box-Provisioner | Yes                 | 20.211.68.86        |
 | Elk-vm      | Yes                  |  20.227.166.71:5601        |
-| DVWA 1   | No                  |  10.0.0.4-254        |
-| DVWA 2   | No                  |  10.0.0.5-254        |
+| DVWA 1   | No                  |  10.0.0.4       |
+| DVWA 2   | No                  |  10.0.0.5        |
 
 
  
