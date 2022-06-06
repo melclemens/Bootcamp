@@ -1,10 +1,10 @@
-# Ek Stack Project
+Week 13 Automated Elk Stack Deployment
 
 Bootcamp Activities
-<img align="center" width="5600" height="530" src="[https://github.com/Diablo5G/ELK-Stack-Project/blob/main/Resources/Images]
-<img align="center" width="5600" height="530" src="[https://github.com/melclemens/Bootcamp/blob/main/Elk.png]
+!(https://github.com/melclemens/Bootcamp/blob/main/Elk.png)
+
      
-						   
+<img align="center" width="5600" height="530" src="						   
 Elk.png
 ---
 
