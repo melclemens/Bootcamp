@@ -2,7 +2,7 @@ Week 13 Automated Elk Stack Deployment
 
 Bootcamp Activities
 !(https://github.com/melclemens/Bootcamp/blob/main/Elk.png)
-
+![Elk graphic](https://github.com/melclemens/Bootcamp/blob/main/Elk.png)
      
 <img align="center" width="5600" height="530" src="						   
 Elk.png
