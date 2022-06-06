@@ -35,18 +35,15 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting inbound access to the network.
 
 > What aspect of security do load balancers protect?
-- According to [Azure security baseline for Azure Load Balancer](https://bit.ly/3AnSRPV), the load balancer's main purpose is to distribute web traffic across multiple servers. In our network, the load balancer was installed in front of the VM to 
-   - protect Azure resources within virtual networks.
-   - monitor and log the configuration and traffic of virtual networks, subnets, and NICs.
-   - protect critical web applications
-   - deny communications with known malicious IP addresses
-   - record network packets
-   - deploy network-based intrusion detection/intrusion prevention systems (IDS/IPS)
-   - manage traffic to web applications
-   - minimize complexity and administrative overhead of network security rules
-   - maintain standard security configurations for network devices
-   - document traffic configuration rules
-   - use automated tools to monitor network resource configurations and detect changes
+> 
+- The primary function of a load balancer is to spread web traffic across several servers. The load balancer was put in front of the VM on our network to
+-  
+- keep Azure resources safe inside virtual networks
+- keep track of virtual networks, subnets, and NICs' configuration and traffic.
+- secure vital web applications - block communications from known malicious IP addresses - monitor network traffic
+- implement network-based intrusion detection/prevention systems (IDS/IPS) - manage traffic to web applications - reduce network security rule complexity and administrative overhead
+- Maintain standard network device security setups
+- utilise automated techniques to monitor network resource configurations and detect changes - document traffic configuration rules
 
 
 > What is the advantage of a jump box?
