@@ -70,7 +70,7 @@ The configuration details of each machine may be found below.
  
 The machines on the internal network are not exposed to the public Internet.
  
-Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 47.185.204.83 
+Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 20.211.68.86 
 
 Machines within the network can only be accessed by SSH from Jump Box.
  
@@ -78,10 +78,10 @@ A summary of the access policies in place can be found in the table below.
  
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump-Box-Provisioner | Yes                 | 47.185.204.83        |
-| ELKServer      | Yes                  |  47.185.204.83:5601        |
-| DVWA 1   | No                  |  10.0.0.1-254        |
-| DVWA 2   | No                  |  10.0.0.1-254        |
+| Jump-Box-Provisioner | Yes                 | 20.211.68.86        |
+| Elk-vm      | Yes                  |  20.227.166.71:5601        |
+| DVWA 1   | No                  |  10.0.0.4-254        |
+| DVWA 2   | No                  |  10.0.0.5-254        |
 
 
  
