@@ -35,12 +35,12 @@ Load balancing ensures that the application will be highly available, in additio
 
 > What aspect of security do load balancers protect?
 > 
-- The primary function of a load balancer is to spread web traffic across several servers. The load balancer was put in front of the VM on our network to
+The primary function of a load balancer is to spread web traffic across several servers. The load balancer was put in front of the VM on our network to:
 - keep Azure resources safe inside virtual networks
 - keep track of virtual networks, subnets, and NICs' configuration and traffic.
 - secure vital web applications - block communications from known malicious IP addresses - monitor network traffic
 - implement network-based intrusion detection/prevention systems (IDS/IPS) - manage traffic to web applications - reduce network security rule complexity and administrative overhead
-- Maintain standard network device security setups
+- maintain standard network device security setups
 - utilise automated techniques to monitor network resource configurations and detect changes - document traffic configuration rules
 
 
