@@ -37,7 +37,6 @@ Load balancing ensures that the application will be highly available, in additio
 > What aspect of security do load balancers protect?
 > 
 - The primary function of a load balancer is to spread web traffic across several servers. The load balancer was put in front of the VM on our network to
--  
 - keep Azure resources safe inside virtual networks
 - keep track of virtual networks, subnets, and NICs' configuration and traffic.
 - secure vital web applications - block communications from known malicious IP addresses - monitor network traffic
@@ -97,14 +96,32 @@ Ansible was used to automate the configuration of the ELK server. No configurati
 > What is the main advantage of automating configuration with Ansible?
 - Ansible is focusing on bringing a server to a certain state of operation.
 
-<details>
-<summary> <b> Click here to view ELK Configuration. </b> </summary>
+The playbook implements the following tasks:
+- Deploying a new VM. 
+    -  Create a new vNet using the same resource group that has been used previously
+    -  Ensuring that the vNET is located in a different region to the other VM's region, creating a peer connection between our virtual networks
+    -  Accept all default settings
+  -  Creating a peer connection to allow traffic to pass between our vNets and regions allowing traffice to pass in both directions
+    -  Navigate to the virtual network, select the new VNet and under settings select Peerings.
+    -  Click on +Add button to create a new peering
+    -  Enter unique name and select the RedTeam vNet in the dropdown labelled virtual network
+    -  Accept all default settings
+  -  Create a new Ubuntu VM in our virtual network 
+     - VM must have a public IP address, and use the new region created for our vNet.  
+     - Select our new vNet and allow a new basic security group to be created
+     - Make sure to use the same SSH keys as per other Webserver VM's.  
+     - Verify VM works by connecting via SSH from the Ansible container on the jumpbox VM.
+  -  
+- Creating an ansible play to install and configure on the ELK instance
+- Restricting access to the server
 
----
+
+The following screenshot displays the result of running 'docker ps' after successfully configuring the ELK instance
+****how do i past the image in?? ****************
  
-We will configure an ELK server within virtual network. Specifically,
+
  
-- Deployed a new VM on our virtual network.
+- Deployed a new VM on our virtual network
 - Created an Ansible play to install and configure an ELK instance.
 - Restricted access to the new server.
 
