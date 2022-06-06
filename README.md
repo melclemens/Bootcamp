@@ -10,6 +10,8 @@ Bootcamp Activities
  
 The files in this repository were used to configure the network depicted below.
 
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Screenshot%202022-06-06%20231914.png)
+
 https://github.com/melclemens/Bootcamp/blob/main/Screenshot%202022-06-06%20231914.png
 
 ![vNet Diagram](https://github.com/Diablo5G/ELK-Stack-Project/blob/main/Resources/Diagrams/ELK-Project-V1.jpg)
