@@ -149,7 +149,7 @@ _-  Which file is the playbook? Where do you copy it?
  
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 -   You update the host file to make the Ansible playbook run on a specific machine.
--   You specify ???
+-   ****
 
 - _Which URL do you navigate to in order to check that the ELK server is running?_
   http://20.227.166.71:5601/app/kibana
