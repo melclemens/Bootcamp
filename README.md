@@ -156,10 +156,11 @@ _-  Which file is the playbook? Where do you copy it?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.______
 
-On the Jump box run the following command to get the playbook: curl https://github.com/melclemens/Bootcamp/blob/main/Ansible/elk_install.yml > /etc/ansible/roles/elk_install.yml
+On the Jump box run the following command to get the playbook: curl https://github.com/melclemens/Bootcamp/blob/main/Config-Files/install-elk.yml > /etc/ansible/roles/elk_install.yml
+
+Edit the hosts file in etc/ansible and update your IP address
 
 
----
 
 
----
+
