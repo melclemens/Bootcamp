@@ -9,7 +9,7 @@
  
 The files in this repository were used to configure the network depicted below.
 
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagram%20Screenshot.png)
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/Diagram%20Screenshot.png)
 
 These files have been tested and used to generate an automated ELK Stack Deployment on Azure. They can be used to either recreate the entire deployment figured below. Otherwise, select portions of the YAML files may be used to install only certain pieces of it, for example, Filebeat and Metricbeat.
 
