@@ -163,7 +163,7 @@ Edit the hosts file in etc/ansible and update your IP address
 
 
 To run the playbook: ansible-playbook /etc/ansible/roles/elk.install.yml
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Screenshot%202022-06-06%20231914.png)
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/ansible-playbook.png)
 
 To check it is working go to http://20.227.166.71:5601/app/kibana
 
