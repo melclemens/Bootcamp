@@ -152,13 +152,18 @@ _-  Which file is the playbook? Where do you copy it?
 -   You specify ???
 
 - _Which URL do you navigate to in order to check that the ELK server is running?_
-  Need to confirm
+  http://20.227.166.71:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.______
 
 On the Jump box run the following command to get the playbook: curl https://github.com/melclemens/Bootcamp/blob/main/Config-Files/install-elk.yml > /etc/ansible/roles/elk_install.yml
 
 Edit the hosts file in etc/ansible and update your IP address
+
+To run the playbook: ansible-playbook /etc/ansible/roles/elk.install.yml
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Screenshot%202022-06-06%20231914.png)
+
+To check it is working go to http://20.227.166.71:5601/app/kibana
 
 
 
