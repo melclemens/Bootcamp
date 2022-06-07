@@ -165,7 +165,8 @@ To run the playbook: ansible-playbook /etc/ansible/roles/elk.install.yml
 ![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/ansible-playbook.png)
 
 To check it is working go to http://20.227.166.71:5601/app/kibana
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/ansible-playbook.png)
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/Kibana%20working.png)
+
 
 
 
