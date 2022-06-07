@@ -148,7 +148,7 @@ Which file is the playbook? Where do you copy it?
  
 Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 -   You update the host file to make the Ansible playbook run on a specific machine.
--   ****
+-   Need to answer this question
 
 - Which URL do you navigate to in order to check that the ELK server is running?_
   http://20.227.166.71:5601/app/kibana
@@ -158,6 +158,7 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 On the Jump box run the following command to get the playbook: curl https://github.com/melclemens/Bootcamp/blob/main/Config-Files/install-elk.yml > /etc/ansible/roles/elk_install.yml
 
 Edit the hosts file in etc/ansible and update your IP address
+
 ![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/Elk%2010.1.0.4.png)
 
 To run the playbook: ansible-playbook /etc/ansible/roles/elk.install.yml
