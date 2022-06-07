@@ -142,7 +142,6 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include  the attribute elk, then destination ip of the ELK server.
 - Run the playbook, and navigate to http://20.227.166.71:5601/app/kibana to check that the installation worked as expected.
 
-___TODO: Answer the following questions to fill in the blanks:_
 _-  Which file is the playbook? Where do you copy it?
  -  The elk_install.yml is the playbook file
  -  You copy the playbook file to the to the /etc/ansible/roles/elk_install.yml
