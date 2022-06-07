@@ -159,15 +159,13 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 On the Jump box run the following command to get the playbook: curl https://github.com/melclemens/Bootcamp/blob/main/Config-Files/install-elk.yml > /etc/ansible/roles/elk_install.yml
 
 Edit the hosts file in etc/ansible and update your IP address
-
 ![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/Elk%2010.1.0.4.png)
-
 
 To run the playbook: ansible-playbook /etc/ansible/roles/elk.install.yml
 ![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/ansible-playbook.png)
 
 To check it is working go to http://20.227.166.71:5601/app/kibana
-
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/ansible-playbook.png)
 
 
 
