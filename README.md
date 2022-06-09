@@ -59,7 +59,7 @@ The configuration details of each machine may be found below.
  
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump-Box-Provisioner | Gateway  | 20.53.229.179 ; 10.0.0.4   | Linux            |
+| Jump-Box | Gateway  | 20.53.229.179 ; 10.0.0.4   | Linux            |
 | Web-1        |webserver    | 10.0.0.5     | Linux            |
 | Web-2        |webserver    | 10.0.0.6     | Linux            |
 | ELKServer    |Kibana       | 20.227.166.71 ; 10.1.0.4     | Linux            |
@@ -78,8 +78,8 @@ A summary of the access policies in place can be found in the table below.
  
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump-Box-Provisioner | Yes                 | 20.211.68.86        |
-| Elk-vm      | Yes                  |  20.227.166.71:5601        |
+| Jump-Box | Yes                 | 20.211.68.86        |
+| Elk Server      | Yes                  |  20.227.166.71:5601        |
 | Web 1   | No                  |  10.0.0.4       |
 | WEb 2   | No                  |  10.0.0.5        |
 
