@@ -99,7 +99,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running 'docker ps' after successfully configuring the ELK instance
 
-![ELK docker ps]https://github.com/melclemens/Bootcamp/blob/main/Images/Elk%20docker%20ps.png
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Images/Elk%20docker%20ps.png)
 
 
 ### Target Machines & Beats
