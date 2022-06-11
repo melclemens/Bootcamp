@@ -55,7 +55,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Filebeat is a lightweight shipper which monitors and consolidates logs, files, and forwards the to Elasticsearch or Logstash for indexing.
 
 > What does Metricbeat record?
-- Metricbeat is a server monitoring tool that collects data from the system and services operating on the server in order to record machine metrics and stats like uptime.
+- Metricbeat is a server monitoring tool that collects metrics from the operating and services running on the server. It then forwards them to Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
  
@@ -65,7 +65,6 @@ The configuration details of each machine may be found below.
 | Web-1        |webserver    | 10.0.0.5     | Linux            |
 | Web-2        |webserver    | 10.0.0.6     | Linux            |
 | ELKServer    |Kibana       | 20.227.166.71 ; 10.1.0.4     | Linux            |
-| RedTeam1lb|Load Balancer| 20.92.209.66| DVWA            |
  
 
 ### Access Policies
@@ -84,7 +83,7 @@ A summary of the access policies in place can be found in the table below.
 | Elk Server      | Yes                  |  20.227.166.71:5601        |
 | Web 1   | No                  |  10.0.0.4       |
 | WEb 2   | No                  |  10.0.0.5        |
-
+| Load Balancer   | Yes                  |  Open        |
 
  
 ---
