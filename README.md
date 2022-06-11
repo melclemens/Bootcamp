@@ -99,7 +99,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running 'docker ps' after successfully configuring the ELK instance
 
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Images/Elk%20docker%20ps.png)
+![Diagram](https://github.com/melclemens/Bootcamp/blob/main/Images/Elk%20docker%20ps.png)
 
 
 ### Target Machines & Beats
@@ -147,13 +147,13 @@ On the Jump box run the following command to get the playbook: curl https://gith
 
 Edit the hosts file in etc/ansible and update your IP address
 
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/Elk%2010.1.0.4.png)
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Images/Elk%2010.1.0.4.png)
 
 To run the playbook: ansible-playbook /etc/ansible/roles/elk.install.yml
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/ansible-playbook.png)
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Images/ansible-playbook.png)
 
 To check it is working go to http://20.227.166.71:5601/app/kibana
-![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Diagrams/Kibana%20working.png)
+![vNet Diagram](https://github.com/melclemens/Bootcamp/blob/main/Images/Kibana%20working.png)
 
 
 
