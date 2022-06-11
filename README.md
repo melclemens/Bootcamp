@@ -13,6 +13,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate an automated ELK Stack Deployment on Azure. They can be used to either recreate the entire deployment figured below. Otherwise, select portions of the YAML files may be used to install only certain pieces of it, for example, Filebeat and Metricbeat.
 
+  - [ansible config](https://github.com/melclemens/Bootcamp/blob/10e6b705078d1b289d688c1e1c6cdf64d839af0d/Config-Files/ansible.cfg)
   - [ansible hosts.yml](https://github.com/melclemens/Bootcamp/blob/10e6b705078d1b289d688c1e1c6cdf64d839af0d/Config-Files/hosts.yml)
   - [install-elk.yml](https://github.com/melclemens/Bootcamp/blob/10e6b705078d1b289d688c1e1c6cdf64d839af0d/Config-Files/install-elk.yml)
   - [filebeat-config.yml](https://github.com/melclemens/Bootcamp/blob/70f9c68ec80211660e408669b7151d4995b37609/Config-Files/filebeat-configuration.yml)
