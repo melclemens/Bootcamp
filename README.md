@@ -64,7 +64,7 @@ The configuration details of each machine may be found below.
 | Jump-Box | Gateway  | 20.53.229.179 ; 10.0.0.4   | Linux            |
 | Web-1        |webserver    | 10.0.0.5     | Linux            |
 | Web-2        |webserver    | 10.0.0.6     | Linux            |
-| ELKServer    |Kibana       | 20.227.166.71 ; 10.1.0.4     | Linux            |
+| ELKServer    |Kibana       | 10.1.0.4     | Linux            |
  
 
 ### Access Policies
@@ -91,23 +91,15 @@ A summary of the access policies in place can be found in the table below.
 
 ### ELK Configuration
  
-Ansible was used to automate the configuration of the ELK server. No configuration was performed manually, which is advantageous because ansible can be used to quickly set up new computers, update programmes, and setup hundreds of servers at once, and the greatest part is that the method is the same whether we're managing one machine or dozens or hundreds.
+Ansible was used to automate the configuration of the ELK server. No configuration was performed manually, which is advantageous because it allows you to quickly set up new computers or update programmes with minimal effort and allows you to scale with ease and removes the opportunity for human error.
 
 > What is the main advantage of automating configuration with Ansible?
 - Ansible is focusing on bringing a server to a certain state of operation.
 
 The playbook implements the following tasks:
-- Deploying a new VM. 
-  -  Creating a new vNet in the same resoure group and using a different region.
-  -  Creating a peer connection to allow traffic to pass between our vNets and regions allowing traffice to pass in both directions
-  -  Create a new Ubuntu VM in our virtual network 
-- Creating an ansible play to install and configure on the ELK instance
-  -  Adding our new VM to the Ansible hosts file
-  -  Creating a new Ansible playbook to use for the new EK virtual machine
-  -  From our Ansible container, adding the new VM to Ansible's hosts file
-- Restricting access to the server
-  -  Add public IP address to whitelist 
-
+- Installs docker.io
+- Increases virtual memory
+- Downloads and launches a docker elk container
 
 The following screenshot displays the result of running 'docker ps' after successfully configuring the ELK instance
 
