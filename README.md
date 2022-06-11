@@ -57,7 +57,7 @@ The configuration details of each machine may be found below.
  
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump-Box | Gateway  | 20.53.229.179 ; 10.0.0.4   | Linux            |
+| Jump-Box | Gateway  | 10.0.0.4   | Linux            |
 | Web-1        |webserver    | 10.0.0.5     | Linux            |
 | Web-2        |webserver    | 10.0.0.6     | Linux            |
 | ELKServer    |Kibana       | 10.1.0.4     | Linux            |
