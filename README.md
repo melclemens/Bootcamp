@@ -110,8 +110,8 @@ The following screenshot displays the result of running 'docker ps' after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-- Web-1 (DVWA 1) | 10.0.0.5
-- Web-2 (DVWA 2) | 10.0.0.6
+- Web-1  | 10.0.0.5
+- Web-2  | 10.0.0.6
 
 I have installed the following Beats on these machines:
 
@@ -131,9 +131,9 @@ These Beats allow us to collect information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the elk_install.yml file to /etc/ansibe/roles/elk_install.yml
-- Update the hosts file to include  the attribute elk, then destination ip of the ELK server.
-- Run the playbook, and navigate to http://20.227.166.71:5601/app/kibana to check that the installation worked as expected.
+- Copy the Filebeat and Meticbeat yaml configuration files to /etc/ansible/files.
+- Update the ansible hosts file to include Web1, Web2, and Elk Server IP addresses.
+- Run the playbooks and navitage to http://(Elk-VM public IP):5601/app/kibana to check that the installation worked as expected.
 
 Which file is the playbook? Where do you copy it?
  -  The elk_install.yml is the playbook file
