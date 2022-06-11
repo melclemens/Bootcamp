@@ -95,6 +95,7 @@ What is the main advantage of automating configuration with Ansible?
 The playbook implements the following tasks:
 - Installs docker.io
 - Increases virtual memory
+- Python3-pip
 - Downloads and launches a docker elk container
 
 The following screenshot displays the result of running 'docker ps' after successfully configuring the ELK instance
